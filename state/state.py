@@ -9,9 +9,9 @@ class State(Document):
 @frappe.whitelist(allow_guest=True)   
 def stateapi():
     doc = frappe.new_doc('States')
-    doc.state_name = 'Maha.'
-    doc.city = 'Pune'
-    doc.famous_dish = 'Bakarwadi'
+    doc.state_name = 'Tamilnadu'
+    doc.city = 'Chennai'
+    doc.famous_dish = 'Idli Sambhar'
     doc.save(ignore_permissions=True)
     frappe.db.commit()
     return "New Data Has Been Created successfully"
