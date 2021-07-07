@@ -10,7 +10,7 @@ class NewWeather1(Document):
 def weapi():   
     doc = frappe.get_doc({
          "doctype": "States",
-         "state_name": "Goa",
+         "state_name": "Tamilnadu",
          
          "child_table":[
              {

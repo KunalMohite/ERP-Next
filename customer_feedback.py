@@ -71,8 +71,8 @@ class CustomerFeedback(Document):
 @frappe.whitelist()   
 def newapi():
     doc = frappe.new_doc('Customer Feedback')
-    doc.first_name = 'Tanu'
-    doc.last_name = 'Sharma'
+    doc.first_name = 'Nikhil'
+    doc.last_name = 'Sanodiya'
     doc.rating = 3
     doc.save(ignore_permissions=True)
     frappe.db.commit()
