@@ -9,9 +9,9 @@ def kunal():
     
     #return frappe.db.count('Customer Feedback')
     
-    return frappe.get_installed_apps()
+    #return frappe.get_installed_apps()
     
-    #return frappe.get_meta('Customer Feedback').fields 
+    return frappe.get_meta('Customer Feedback').fields 
     
     #return frappe.form_dict
     
